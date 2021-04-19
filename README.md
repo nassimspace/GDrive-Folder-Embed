@@ -40,6 +40,7 @@ customElements.define("gdf-embed", GDriveFolderEmbed);
 (When using VanillaJS components, you would usually load the ***deepFreeze*** Function separately (so it can be accessed by any components). 
 
 I don't usually include it within the component itself, I just added that in to showcase a neat trick with components!
+
 ---
 ### Why do all this when you can simply directly put an iframe?
 1. Built this to personally learn about the intricacies of web components
