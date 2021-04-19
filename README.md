@@ -20,14 +20,14 @@ I usually like to *'freeze'* ('**Object.freeze()**') my components so I added th
 
 If you wish to remove this, you can simply replace the following portion 
 ```js
-const  deepFreeze = obj  => {
-Object.keys(obj).forEach(prop  => {
-if (typeof  obj[prop] === 'object') deepFreeze(obj[prop]);
+const deepFreeze = obj => {
+Object.keys(obj).forEach(prop => {
+if (typeof obj[prop] === 'object') deepFreeze(obj[prop]);
 });
-return  Object.freeze(obj);
+return Object.freeze(obj);
 };
 
-const  frozenGDFE = deepFreeze(GDriveFolderEmbed);
+const frozenGDFE = deepFreeze(GDriveFolderEmbed);
 customElements.define("gdf-embed", frozenGDFE);
 ```
 
