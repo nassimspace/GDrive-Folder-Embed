@@ -1,4 +1,4 @@
-﻿# Embed a Google Drive Folder with VanillaJS & Web Component 
+﻿# Embed a Google Drive Folder with VanillaJS & Web Components 
 
 ![## Example on CodePen](https://raw.githubusercontent.com/nassimspace/GDrive-Folder-Embed/main/screenshot.jpg)
 
