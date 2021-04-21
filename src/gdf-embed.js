@@ -21,7 +21,7 @@ bottom: 0;
 right: 0;
 z-index: 9999;
 border: none;
-    }</style>
+    }</style><slot></slot> 
     <iframe src=${url} webkitallowfullscreen="" mozallowfullscreen="" sandbox="allow-forms allow-scripts allow-popups allow-same-origin allow-pointer-lock" allowfullscreen="" frameBorder="0" scrolling="auto" loading="eager" seamless></iframe>`;
   }
 }
