@@ -5,6 +5,11 @@
 ---
 ### How To Use:
 1. Load the script
+
+```html
+<script src="js/gdf-embed.js"></script>
+```
+
 2. in your HTML markup, insert the following tag:
 ```html
 <gdf-embed folderID="1ILeC9USXuExQcLCCJVmFT6M85g7eAk_U" render="grid">
